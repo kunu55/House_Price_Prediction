@@ -37,7 +37,7 @@ Predicting house prices is a classic machine learning problem. The goal is to cr
 
 Example visualization:  
 
-![scatter plot of actual vs predicted prices](link-to-image-if-uploaded)
+![scatter plot of actual vs predicted prices](download.png)
 
 ---
 
