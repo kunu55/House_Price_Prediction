@@ -1,0 +1,6 @@
+House_Price_Prediction/
+├── notebooks/ ← Jupyter notebooks
+│ └── House_Price_Prediction.ipynb
+├── data/ ← Raw & processed data 
+├── README.md ← Project overview and instructions
+└── requirements.txt ← Python dependencies
