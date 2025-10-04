@@ -1,22 +1,78 @@
-# 🏡 House Price Prediction using Machine Learning
+# 🏡 House Price Prediction Using Machine Learning
 
-This is my first machine learning project using **Linear Regression** to predict house prices based on real data.
+This is my first machine learning project where I used **Linear Regression** to predict house prices based on real-world data. The project demonstrates data exploration, preprocessing, model building, and evaluation using Python.
 
-## 📘 Tools Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+---
 
-## ⚙️ How It Works
-1. Loaded and explored the California housing dataset  
-2. Trained a Linear Regression model  
-3. Evaluated performance using MSE and R² Score  
+## 📌 Project Overview
+Predicting house prices is a classic machine learning problem. The goal is to create a model that can accurately estimate the price of a house given features such as average income, rooms, population, and housing age.
+
+---
+
+## 🛠 Tools & Technologies Used
+- **Python 3.x**  
+- **Pandas, NumPy** – Data handling & manipulation  
+- **Matplotlib, Seaborn** – Data visualization  
+- **Scikit-learn** – Machine Learning models (Linear Regression)  
+- **Google Colab / Jupyter Notebook** – Development environment  
+
+---
+
+## 📂 Dataset
+- **Source:** California Housing dataset from `sklearn.datasets.fetch_california_housing`  
+- **Features:**  
+  - `MedInc` – Median income in block group  
+  - `HouseAge` – Median house age in block group  
+  - `AveRooms` – Average rooms per household  
+  - `AveOccup` – Average occupants per household  
+  - …and more  
+- **Target:** `MedHouseVal` – Median house value in USD
+
+---
+
+## 🔍 Data Exploration & Visualization
+- Explored statistical summaries and distributions of all features  
+- Visualized correlations and relationships between features and the target variable  
+- Detected patterns and potential outliers in the dataset  
+
+Example visualization:  
+
+![scatter plot of actual vs predicted prices](link-to-image-if-uploaded)
+
+---
+
+## ⚙️ Model Building
+1. Split the dataset into **train and test sets**  
+2. Built a **Linear Regression model** using Scikit-learn  
+3. Evaluated model performance using:
+   - **Mean Squared Error (MSE)**  
+   - **R² Score**  
+
+---
 
 ## 📊 Results
-- R² Score: ~0.7  
-- Visualization: Actual vs Predicted Prices plot  
+- **R² Score:** ~0.7  
+- Model predictions closely align with actual prices  
+- Scatter plots show predicted vs actual values
+
+---
 
 ## 🚀 Future Improvements
-- Use advanced models like Random Forest or XGBoost  
-- Deploy with Streamlit for live predictions
+- Experiment with advanced models: **Random Forest, XGBoost**  
+- Feature engineering for better predictions  
+- Deploy the model as a **web app using Streamlit**  
+- Apply model to other real-world datasets  
+
+---
+
+## 📁 Project Structure
+House_Price_Prediction/
+├── notebooks/ ← Jupyter notebooks
+│ └── House_Price_Prediction.ipynb
+├── data/ ← Raw & processed data (if applicable)
+├── src/ ← Python scripts (optional)
+├── README.md ← Project overview and instructions
+└── requirements.txt ← Python dependencies
+
+## 🔗 Links
+- GitHub Repository: [House_Price_Prediction](https://github.com/kunu55/House_Price_Prediction)
