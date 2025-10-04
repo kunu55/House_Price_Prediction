@@ -65,14 +65,6 @@ Example visualization:
 
 ---
 
-## 📁 Project Structure
-House_Price_Prediction/
-├── notebooks/ ← Jupyter notebooks
-│ └── House_Price_Prediction.ipynb
-├── data/ ← Raw & processed data (if applicable)
-├── src/ ← Python scripts (optional)
-├── README.md ← Project overview and instructions
-└── requirements.txt ← Python dependencies
 
 ## 🔗 Links
 - GitHub Repository: [House_Price_Prediction](https://github.com/kunu55/House_Price_Prediction)
